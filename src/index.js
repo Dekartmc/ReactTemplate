@@ -1,10 +1,20 @@
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/css/index.css';
 import store from './redux/store';
 import { Provider } from 'react-redux';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+/* Import Styles: Tailwind CSS - Custom CSS */
+import './assets/css/index.css';
+import './assets/css/styles.css';
+import "animate.css"
+
+/* Import Icons - FontAwesome */
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
+/* Import Fonts */
+
 
 ReactDOM.render(
   <Provider store={store}>
