@@ -3,12 +3,12 @@ import React from "react";
 /* Components */
 
 
-export default function NotFound(props) {
+export default function Home(props) {
 
   return (
     <>
       <div>
-        Not Found Page
+        Home Page
       </div>
     </>
   );

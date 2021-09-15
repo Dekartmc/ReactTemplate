@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 // import { useDispatch, useSelector } from 'react-redux'
 // import { algo } from './redux/actions/primerActions'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
